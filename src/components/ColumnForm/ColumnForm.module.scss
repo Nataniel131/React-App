@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.inputName {
+  margin: 10px;
+}
+
+@media (max-width: 767px) {
+  .columnForm {
+    flex-direction: column;
+  }
+}
